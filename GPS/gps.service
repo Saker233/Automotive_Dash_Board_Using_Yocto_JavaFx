@@ -1,0 +1,12 @@
+[Unit]
+Description=GPS Data Script Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/gps_data.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
