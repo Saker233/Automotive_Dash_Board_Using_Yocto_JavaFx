@@ -1,0 +1,1 @@
+parseDouble  , correct dimention
